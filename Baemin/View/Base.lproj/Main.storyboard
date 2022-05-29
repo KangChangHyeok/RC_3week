@@ -1,24 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1tu-cg-1wK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--메인화면-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Baemin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CZC-jx-5NB">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zRF-Zw-Cx1">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2322"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WZF-U1-NJs">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="2322"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="WZF-U1-NJs" firstAttribute="height" secondItem="Bis-sI-n6t" secondAttribute="height" multiplier="3" id="D0K-ZO-GDS"/>
+                                    <constraint firstItem="zRF-Zw-Cx1" firstAttribute="width" secondItem="Bis-sI-n6t" secondAttribute="width" id="H3K-ou-qk0"/>
+                                    <constraint firstItem="zRF-Zw-Cx1" firstAttribute="bottom" secondItem="Pkz-c9-6jp" secondAttribute="bottom" id="Ifs-Vi-ML6"/>
+                                    <constraint firstItem="zRF-Zw-Cx1" firstAttribute="leading" secondItem="Pkz-c9-6jp" secondAttribute="leading" id="Tom-Db-ufO"/>
+                                    <constraint firstItem="Pkz-c9-6jp" firstAttribute="top" secondItem="zRF-Zw-Cx1" secondAttribute="top" id="kiw-xm-oAh"/>
+                                    <constraint firstItem="zRF-Zw-Cx1" firstAttribute="trailing" secondItem="Pkz-c9-6jp" secondAttribute="trailing" id="xlv-Ha-o64"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Pkz-c9-6jp"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Bis-sI-n6t"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CZC-jx-5NB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="34y-0j-pYL"/>
+                            <constraint firstItem="CZC-jx-5NB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VGG-ag-09A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CZC-jx-5NB" secondAttribute="trailing" id="aKr-QH-b6m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CZC-jx-5NB" secondAttribute="bottom" id="as1-an-fVr"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="메인화면" id="Cul-VQ-gg8">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="navibaritem-1" style="done" id="DYT-H5-eJg"/>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Item" image="navibaritem3" id="snV-hw-UbV"/>
+                            <barButtonItem title="Item" image="navibaritem2" id="i9C-0Y-F8g"/>
+                        </rightBarButtonItems>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="722" y="116"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vE6-12-uIO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1tu-cg-1wK" customClass="NavigationController" customModule="Baemin" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LKN-s3-hgL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <outlet property="navibar" destination="LKN-s3-hgL" id="PiT-tu-7NX"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="xWw-yd-58D"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rp8-uP-wQi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-84" y="116"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="navibaritem-1" width="60" height="54"/>
+        <image name="navibaritem2" width="28" height="28"/>
+        <image name="navibaritem3" width="28" height="28"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

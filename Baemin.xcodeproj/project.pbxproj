@@ -13,6 +13,7 @@
 		273798E92843AAC4009B7255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273798E72843AAC4009B7255 /* Main.storyboard */; };
 		273798EB2843AAC5009B7255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273798EA2843AAC5009B7255 /* Assets.xcassets */; };
 		273798EE2843AAC5009B7255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273798EC2843AAC5009B7255 /* LaunchScreen.storyboard */; };
+		27EDFA772843C404008752E7 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EDFA762843C404008752E7 /* NavigationController.swift */; };
 		E15F75565792FDCB7B860438 /* Pods_Baemin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E0AA89B7636C520399C60C /* Pods_Baemin.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		273798EA2843AAC5009B7255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		273798ED2843AAC5009B7255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		273798EF2843AAC5009B7255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EDFA762843C404008752E7 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = Baemin/Controller/NavigationController.swift; sourceTree = SOURCE_ROOT; };
 		3FBAD09A8B2C57C3C0952CC5 /* Pods-Baemin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baemin.release.xcconfig"; path = "Target Support Files/Pods-Baemin/Pods-Baemin.release.xcconfig"; sourceTree = "<group>"; };
 		A3E0AA89B7636C520399C60C /* Pods_Baemin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baemin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9BF396FC7C97487A458884 /* Pods-Baemin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baemin.debug.xcconfig"; path = "Target Support Files/Pods-Baemin/Pods-Baemin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		273442A72843AE7800E76093 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				27EDFA762843C404008752E7 /* NavigationController.swift */,
 				273798E52843AAC4009B7255 /* ViewController.swift */,
 			);
 			path = Controller;
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				273798E62843AAC4009B7255 /* ViewController.swift in Sources */,
+				27EDFA772843C404008752E7 /* NavigationController.swift in Sources */,
 				273798E22843AAC4009B7255 /* AppDelegate.swift in Sources */,
 				273798E42843AAC4009B7255 /* SceneDelegate.swift in Sources */,
 			);
