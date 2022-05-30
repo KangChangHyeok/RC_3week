@@ -7,17 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2730C88E28447E680040DB1C /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730C88D28447E680040DB1C /* BannerCell.swift */; };
+		2730C8902844A12F0040DB1C /* DeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730C88F2844A12F0040DB1C /* DeliveryViewController.swift */; };
+		2730C8922844AACA0040DB1C /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730C8912844AACA0040DB1C /* OneViewController.swift */; };
+		2730C8942844ABBE0040DB1C /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730C8932844ABBE0040DB1C /* TwoViewController.swift */; };
+		2730C8962844ABC80040DB1C /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730C8952844ABC80040DB1C /* ThreeViewController.swift */; };
+		2730C8982844ABD20040DB1C /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730C8972844ABD20040DB1C /* FourViewController.swift */; };
+		2730C89A2844ABD90040DB1C /* FIveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730C8992844ABD90040DB1C /* FIveViewController.swift */; };
+		2730C89D2844B4560040DB1C /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730C89C2844B4560040DB1C /* SixViewController.swift */; };
 		273798E22843AAC4009B7255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273798E12843AAC4009B7255 /* AppDelegate.swift */; };
 		273798E42843AAC4009B7255 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273798E32843AAC4009B7255 /* SceneDelegate.swift */; };
 		273798E62843AAC4009B7255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273798E52843AAC4009B7255 /* ViewController.swift */; };
 		273798E92843AAC4009B7255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273798E72843AAC4009B7255 /* Main.storyboard */; };
 		273798EB2843AAC5009B7255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273798EA2843AAC5009B7255 /* Assets.xcassets */; };
 		273798EE2843AAC5009B7255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273798EC2843AAC5009B7255 /* LaunchScreen.storyboard */; };
+		276343B72845006000D328E0 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276343B62845006000D328E0 /* RestaurantViewController.swift */; };
+		278444542844D273005B8B63 /* DeliveryBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278444532844D273005B8B63 /* DeliveryBannerCell.swift */; };
 		27EDFA772843C404008752E7 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EDFA762843C404008752E7 /* NavigationController.swift */; };
 		E15F75565792FDCB7B860438 /* Pods_Baemin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E0AA89B7636C520399C60C /* Pods_Baemin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2730C88D28447E680040DB1C /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		2730C88F2844A12F0040DB1C /* DeliveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryViewController.swift; sourceTree = "<group>"; };
+		2730C8912844AACA0040DB1C /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		2730C8932844ABBE0040DB1C /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwoViewController.swift; path = Baemin/Controller/TabbarVController/TwoViewController.swift; sourceTree = SOURCE_ROOT; };
+		2730C8952844ABC80040DB1C /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThreeViewController.swift; path = Baemin/Controller/TabbarVController/ThreeViewController.swift; sourceTree = SOURCE_ROOT; };
+		2730C8972844ABD20040DB1C /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FourViewController.swift; path = Baemin/Controller/TabbarVController/FourViewController.swift; sourceTree = SOURCE_ROOT; };
+		2730C8992844ABD90040DB1C /* FIveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FIveViewController.swift; path = Baemin/Controller/TabbarVController/FIveViewController.swift; sourceTree = SOURCE_ROOT; };
+		2730C89C2844B4560040DB1C /* SixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
 		273798DE2843AAC4009B7255 /* Baemin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baemin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		273798E12843AAC4009B7255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		273798E32843AAC4009B7255 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +44,8 @@
 		273798EA2843AAC5009B7255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		273798ED2843AAC5009B7255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		273798EF2843AAC5009B7255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276343B62845006000D328E0 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		278444532844D273005B8B63 /* DeliveryBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeliveryBannerCell.swift; path = Baemin/Controller/DeliveryBannerCell.swift; sourceTree = SOURCE_ROOT; };
 		27EDFA762843C404008752E7 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = Baemin/Controller/NavigationController.swift; sourceTree = SOURCE_ROOT; };
 		3FBAD09A8B2C57C3C0952CC5 /* Pods-Baemin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baemin.release.xcconfig"; path = "Target Support Files/Pods-Baemin/Pods-Baemin.release.xcconfig"; sourceTree = "<group>"; };
 		A3E0AA89B7636C520399C60C /* Pods_Baemin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baemin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +72,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2730C89B2844ABE50040DB1C /* TabbarVController */ = {
+			isa = PBXGroup;
+			children = (
+				2730C88F2844A12F0040DB1C /* DeliveryViewController.swift */,
+				2730C8912844AACA0040DB1C /* OneViewController.swift */,
+				2730C8932844ABBE0040DB1C /* TwoViewController.swift */,
+				2730C8952844ABC80040DB1C /* ThreeViewController.swift */,
+				2730C8972844ABD20040DB1C /* FourViewController.swift */,
+				2730C8992844ABD90040DB1C /* FIveViewController.swift */,
+				2730C89C2844B4560040DB1C /* SixViewController.swift */,
+			);
+			path = TabbarVController;
+			sourceTree = "<group>";
+		};
 		273442A52843AE6D00E76093 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +108,10 @@
 			children = (
 				27EDFA762843C404008752E7 /* NavigationController.swift */,
 				273798E52843AAC4009B7255 /* ViewController.swift */,
+				2730C88D28447E680040DB1C /* BannerCell.swift */,
+				278444532844D273005B8B63 /* DeliveryBannerCell.swift */,
+				276343B62845006000D328E0 /* RestaurantViewController.swift */,
+				2730C89B2844ABE50040DB1C /* TabbarVController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -129,6 +167,7 @@
 				273798DA2843AAC4009B7255 /* Sources */,
 				273798DB2843AAC4009B7255 /* Frameworks */,
 				273798DC2843AAC4009B7255 /* Resources */,
+				44107CB7D15A5C760506D510 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,6 +225,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		44107CB7D15A5C760506D510 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baemin/Pods-Baemin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baemin/Pods-Baemin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Baemin/Pods-Baemin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C3A3CA115AA7BD933B45FDC0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,8 +272,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				273798E62843AAC4009B7255 /* ViewController.swift in Sources */,
+				2730C88E28447E680040DB1C /* BannerCell.swift in Sources */,
+				2730C8982844ABD20040DB1C /* FourViewController.swift in Sources */,
+				278444542844D273005B8B63 /* DeliveryBannerCell.swift in Sources */,
+				2730C8902844A12F0040DB1C /* DeliveryViewController.swift in Sources */,
+				2730C8942844ABBE0040DB1C /* TwoViewController.swift in Sources */,
+				2730C89A2844ABD90040DB1C /* FIveViewController.swift in Sources */,
 				27EDFA772843C404008752E7 /* NavigationController.swift in Sources */,
 				273798E22843AAC4009B7255 /* AppDelegate.swift in Sources */,
+				276343B72845006000D328E0 /* RestaurantViewController.swift in Sources */,
+				2730C8962844ABC80040DB1C /* ThreeViewController.swift in Sources */,
+				2730C89D2844B4560040DB1C /* SixViewController.swift in Sources */,
+				2730C8922844AACA0040DB1C /* OneViewController.swift in Sources */,
 				273798E42843AAC4009B7255 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
