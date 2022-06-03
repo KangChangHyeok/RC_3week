@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="197" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="Baemin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="447" height="197"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="tableVCell" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="447" height="197"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UyI-hD-3sz">
+                        <rect key="frame" x="10" y="30" width="80" height="137"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="MeW-cY-0w8"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MYe-yk-fqV">
+                        <rect key="frame" x="100" y="30" width="83.5" height="75"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가게 이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVW-2h-nZ6">
+                                <rect key="frame" x="0.0" y="0.0" width="83.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="평점" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qze-OD-RcZ">
+                                <rect key="frame" x="0.0" y="19.5" width="83.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="최소주문금액" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTD-14-NsZ">
+                                <rect key="frame" x="0.0" y="37.5" width="83.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="예상배달시간" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9d-eM-mR2">
+                                <rect key="frame" x="0.0" y="55.5" width="83.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.67262000639999997" green="0.67262000639999997" blue="0.67262000639999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UyI-hD-3sz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="4NP-CV-zRs"/>
+                    <constraint firstItem="MYe-yk-fqV" firstAttribute="leading" secondItem="UyI-hD-3sz" secondAttribute="trailing" constant="10" id="9L6-hn-gJF"/>
+                    <constraint firstAttribute="bottom" secondItem="UyI-hD-3sz" secondAttribute="bottom" constant="30" id="D6f-sU-ed3"/>
+                    <constraint firstItem="MYe-yk-fqV" firstAttribute="top" secondItem="UyI-hD-3sz" secondAttribute="top" id="bJv-Q3-z7i"/>
+                    <constraint firstItem="UyI-hD-3sz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="g9P-Oy-CIn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="tableVDeliveryTime" destination="c9d-eM-mR2" id="qpI-Yq-dDL"/>
+                <outlet property="tableVImage" destination="UyI-hD-3sz" id="Cdt-DR-Phx"/>
+                <outlet property="tableVMinimumOrderPrice" destination="oTD-14-NsZ" id="yv3-Gu-CLk"/>
+                <outlet property="tableVName" destination="XVW-2h-nZ6" id="y1D-In-odb"/>
+                <outlet property="tableVScore" destination="qze-OD-RcZ" id="e9X-GO-g35"/>
+            </connections>
+            <point key="canvasLocation" x="60" y="140"/>
+        </tableViewCell>
+    </objects>
+</document>

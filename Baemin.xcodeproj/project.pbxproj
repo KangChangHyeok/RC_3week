@@ -22,6 +22,15 @@
 		273798EB2843AAC5009B7255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273798EA2843AAC5009B7255 /* Assets.xcassets */; };
 		273798EE2843AAC5009B7255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273798EC2843AAC5009B7255 /* LaunchScreen.storyboard */; };
 		276343B72845006000D328E0 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276343B62845006000D328E0 /* RestaurantViewController.swift */; };
+		276C3A9D28450C1800DEC64E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C3A9C28450C1800DEC64E /* TableViewController.swift */; };
+		276C3AA028465DCD00DEC64E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C3A9E28465DCD00DEC64E /* TableViewCell.swift */; };
+		276C3AA128465DCD00DEC64E /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 276C3A9F28465DCD00DEC64E /* TableViewCell.xib */; };
+		276C3AA328488D2D00DEC64E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C3AA228488D2D00DEC64E /* DataModel.swift */; };
+		276C3AA5284899F500DEC64E /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C3AA4284899F500DEC64E /* Store.swift */; };
+		276C3AA72849A0D500DEC64E /* StoreMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C3AA62849A0D500DEC64E /* StoreMenuViewController.swift */; };
+		276C3AAA2849ACA100DEC64E /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C3AA82849ACA100DEC64E /* MenuTableViewCell.swift */; };
+		276C3AAB2849ACA100DEC64E /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 276C3AA92849ACA100DEC64E /* MenuTableViewCell.xib */; };
+		276C3AAD2849B4AC00DEC64E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C3AAC2849B4AC00DEC64E /* Menu.swift */; };
 		278444542844D273005B8B63 /* DeliveryBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278444532844D273005B8B63 /* DeliveryBannerCell.swift */; };
 		27EDFA772843C404008752E7 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EDFA762843C404008752E7 /* NavigationController.swift */; };
 		E15F75565792FDCB7B860438 /* Pods_Baemin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E0AA89B7636C520399C60C /* Pods_Baemin.framework */; };
@@ -45,6 +54,15 @@
 		273798ED2843AAC5009B7255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		273798EF2843AAC5009B7255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		276343B62845006000D328E0 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		276C3A9C28450C1800DEC64E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		276C3A9E28465DCD00DEC64E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		276C3A9F28465DCD00DEC64E /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		276C3AA228488D2D00DEC64E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		276C3AA4284899F500DEC64E /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		276C3AA62849A0D500DEC64E /* StoreMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreMenuViewController.swift; sourceTree = "<group>"; };
+		276C3AA82849ACA100DEC64E /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		276C3AA92849ACA100DEC64E /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		276C3AAC2849B4AC00DEC64E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		278444532844D273005B8B63 /* DeliveryBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeliveryBannerCell.swift; path = Baemin/Controller/DeliveryBannerCell.swift; sourceTree = SOURCE_ROOT; };
 		27EDFA762843C404008752E7 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = Baemin/Controller/NavigationController.swift; sourceTree = SOURCE_ROOT; };
 		3FBAD09A8B2C57C3C0952CC5 /* Pods-Baemin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baemin.release.xcconfig"; path = "Target Support Files/Pods-Baemin/Pods-Baemin.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				273798EA2843AAC5009B7255 /* Assets.xcassets */,
+				276C3AA4284899F500DEC64E /* Store.swift */,
+				276C3AAC2849B4AC00DEC64E /* Menu.swift */,
+				276C3AA228488D2D00DEC64E /* DataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +120,8 @@
 			children = (
 				273798EC2843AAC5009B7255 /* LaunchScreen.storyboard */,
 				273798E72843AAC4009B7255 /* Main.storyboard */,
+				276C3A9F28465DCD00DEC64E /* TableViewCell.xib */,
+				276C3AA92849ACA100DEC64E /* MenuTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -108,9 +131,13 @@
 			children = (
 				27EDFA762843C404008752E7 /* NavigationController.swift */,
 				273798E52843AAC4009B7255 /* ViewController.swift */,
+				276343B62845006000D328E0 /* RestaurantViewController.swift */,
+				276C3A9C28450C1800DEC64E /* TableViewController.swift */,
+				276C3AA82849ACA100DEC64E /* MenuTableViewCell.swift */,
+				276C3AA62849A0D500DEC64E /* StoreMenuViewController.swift */,
+				276C3A9E28465DCD00DEC64E /* TableViewCell.swift */,
 				2730C88D28447E680040DB1C /* BannerCell.swift */,
 				278444532844D273005B8B63 /* DeliveryBannerCell.swift */,
-				276343B62845006000D328E0 /* RestaurantViewController.swift */,
 				2730C89B2844ABE50040DB1C /* TabbarVController */,
 			);
 			path = Controller;
@@ -217,7 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				273798EE2843AAC5009B7255 /* LaunchScreen.storyboard in Resources */,
+				276C3AA128465DCD00DEC64E /* TableViewCell.xib in Resources */,
 				273798EB2843AAC5009B7255 /* Assets.xcassets in Resources */,
+				276C3AAB2849ACA100DEC64E /* MenuTableViewCell.xib in Resources */,
 				273798E92843AAC4009B7255 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,18 +301,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				273798E62843AAC4009B7255 /* ViewController.swift in Sources */,
+				276C3AA72849A0D500DEC64E /* StoreMenuViewController.swift in Sources */,
+				276C3AA028465DCD00DEC64E /* TableViewCell.swift in Sources */,
 				2730C88E28447E680040DB1C /* BannerCell.swift in Sources */,
+				276C3AA5284899F500DEC64E /* Store.swift in Sources */,
 				2730C8982844ABD20040DB1C /* FourViewController.swift in Sources */,
 				278444542844D273005B8B63 /* DeliveryBannerCell.swift in Sources */,
 				2730C8902844A12F0040DB1C /* DeliveryViewController.swift in Sources */,
 				2730C8942844ABBE0040DB1C /* TwoViewController.swift in Sources */,
+				276C3AAD2849B4AC00DEC64E /* Menu.swift in Sources */,
 				2730C89A2844ABD90040DB1C /* FIveViewController.swift in Sources */,
 				27EDFA772843C404008752E7 /* NavigationController.swift in Sources */,
 				273798E22843AAC4009B7255 /* AppDelegate.swift in Sources */,
 				276343B72845006000D328E0 /* RestaurantViewController.swift in Sources */,
 				2730C8962844ABC80040DB1C /* ThreeViewController.swift in Sources */,
+				276C3AAA2849ACA100DEC64E /* MenuTableViewCell.swift in Sources */,
 				2730C89D2844B4560040DB1C /* SixViewController.swift in Sources */,
 				2730C8922844AACA0040DB1C /* OneViewController.swift in Sources */,
+				276C3AA328488D2D00DEC64E /* DataModel.swift in Sources */,
+				276C3A9D28450C1800DEC64E /* TableViewController.swift in Sources */,
 				273798E42843AAC4009B7255 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

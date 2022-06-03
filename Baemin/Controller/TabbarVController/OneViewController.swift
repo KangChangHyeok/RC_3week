@@ -39,6 +39,12 @@ class OneViewController: UIViewController {
             nowPage += 1
             deliveryCollectionV.scrollToItem(at: NSIndexPath(item: nowPage, section: 0) as IndexPath, at: .right, animated: true)
         }
+    
+//    @IBAction func buttonTapped(_ sender: UIButton) {
+//        
+//        performSegue(withIdentifier: "ToTableViewController", sender: sender)
+//    }
+    
 }
 
 extension OneViewController: UICollectionViewDataSource, UICollectionViewDelegate {
